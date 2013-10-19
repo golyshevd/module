@@ -1,0 +1,37 @@
+{
+    "author": {
+        "name": "Golyshev Dmitrii",
+        "email": "golyshev.dmitry@yandex.ru"
+    },
+    "bugs": {
+        "url": "https://github.com/golyshevd/module/issues"
+    },
+    "contributors": [
+        "Golyshev Dmitrii <golyshev.dmitry@yandex.ru>"
+    ],
+    "dependencies": {},
+    "description": "",
+    "devDependencies": {
+        "jscs": "~1.4.5",
+        "eslint": "~0.6.2",
+        "nodeunit": "~0.9.0",
+        "istanbul": "~0.2.10",
+        "glob": "~4.0.0"
+    },
+    "license": "MIT",
+    "main": "",
+    "name": "",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/golyshevd/module.git"
+    },
+    "scripts": {
+        "jscs": "jscs .",
+        "eslint": "eslint .",
+        "lint": "npm run jscs && npm run eslint",
+        "unit": "node --harmony test/runner",
+        "test": "npm run lint && npm run unit",
+        "cover": "istanbul cover test/runner"
+    },
+    "version": "0.0.0"
+}
